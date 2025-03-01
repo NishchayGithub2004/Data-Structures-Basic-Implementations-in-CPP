@@ -10,15 +10,15 @@ int main()
     int choice;
     string word;
 
+    cout << "\n\nMAIN MENU\n";
+    cout << "\n1. Insert word";
+    cout << "\n2. Delete word";
+    cout << "\n3. Search word";
+    cout << "\n4. Display words";
+    cout << "\n5. Exit";
+
     while (true)
-    {
-        cout << "\n\nMAIN MENU\n";
-        cout << "\n1. Insert word";
-        cout << "\n2. Delete word";
-        cout << "\n3. Search word";
-        cout << "\n4. Display words";
-        cout << "\n5. Exit";
-        
+    {   
         cout << "\n\nEnter your choice : ";
         cin >> choice;
 
