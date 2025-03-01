@@ -9,7 +9,7 @@
 int main()
 {
     BST bst;
-    int choice, value, oldValue, newValue;
+    int choice, value;
 
     while (true)
     {
