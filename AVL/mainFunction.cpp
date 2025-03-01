@@ -9,15 +9,16 @@ int main()
     AVL avl;
     int choice, value;
 
+    cout << "\n\nMAIN MENU\n\n";
+    cout << "1. Insert node";
+    cout << "\n2. Delete node";
+    cout << "\n3. Pre order traversal";
+    cout << "\n4. In order traversal";
+    cout << "\n5. Post order traversal";
+    cout << "\n6. Exit";
+
     while (true)
     {
-        cout << "\n\nMAIN MENU\n\n";
-        cout << "1. Insert node";
-        cout << "\n2. Delete node";
-        cout << "\n3. Pre order traversal";
-        cout << "\n4. In order traversal";
-        cout << "\n5. Post order traversal";
-        cout << "\n6. Exit";
         cout << "\n\nEnter your choice : ";
         cin >> choice;
 
