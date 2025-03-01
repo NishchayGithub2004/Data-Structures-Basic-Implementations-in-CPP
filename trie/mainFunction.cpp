@@ -2,14 +2,13 @@
 #include "insertWord.cpp"
 #include "deleteWord.cpp"
 #include "searchWord.cpp"
-#include "updateWord.cpp"
 #include "displayWords.cpp"
 
 int main()
 {
     Trie trie;
     int choice;
-    string word, oldWord, newWord;
+    string word;
 
     while (true)
     {
@@ -17,9 +16,8 @@ int main()
         cout << "\n1. Insert word";
         cout << "\n2. Delete word";
         cout << "\n3. Search word";
-        cout << "\n4. Update word";
-        cout << "\n5. Display words";
-        cout << "\n6. Exit";
+        cout << "\n4. Display words";
+        cout << "\n5. Exit";
         
         cout << "\n\nEnter your choice : ";
         cin >> choice;
@@ -44,17 +42,9 @@ int main()
             trie.searchWord(word);
             break;
 
-            case 4:
-            cout << "\nEnter word to replace : ";
-            cin >> oldWord;
-            cout << "\nEnter replacing word : ";
-            cin >> newWord;
-            trie.updateWord(oldWord,newWord);
-            break;
+            case 4: trie.displayWords(); break;
 
-            case 5: trie.displayWords(); break;
-
-            case 6: cout << "\nProgram exited successfully"; return 0;
+            case 5: cout << "\nProgram exited successfully"; return 0;
 
             default: cout << "\nPlease enter a valid option"; break;
         }
