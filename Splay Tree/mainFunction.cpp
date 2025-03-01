@@ -9,7 +9,7 @@
 int main()
 {
     SplayTree splay;
-    int choice, value, oldValue, newValue;
+    int choice, value;
 
     while (true)
     {
