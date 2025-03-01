@@ -14,19 +14,20 @@ int main()
     CircularDoublyLinkedList list;
     int choice, value, oldValue, newValue;
 
+    cout << "\n\nMAIN MENU\n\n";
+    cout << "1. Insert at beginning";
+    cout << "\n2. Insert at end";
+    cout << "\n3. Delete from beginning";
+    cout << "\n4. Delete from end";
+    cout << "\n5. Search a node";
+    cout << "\n6. Update a node";
+    cout << "\n7. Display nodes";
+    cout << "\n8. Predecessor of a node";
+    cout << "\n9. Successor of a node";
+    cout << "\n10. Exit";
+
     while (true)
     {
-        cout << "\n\nMAIN MENU\n\n";
-        cout << "1. Insert at beginning";
-        cout << "\n2. Insert at end";
-        cout << "\n3. Delete from beginning";
-        cout << "\n4. Delete from end";
-        cout << "\n5. Search for a node";
-        cout << "\n6. Update a node";
-        cout << "\n7. Display nodes";
-        cout << "\n8. Predecessor of a node";
-        cout << "\n9. Successor of a node";
-        cout << "\n10. Exit";
         cout << "\n\nEnter your choice : ";
         cin >> choice;
 
