@@ -11,17 +11,17 @@ int main()
     SplayTree splay;
     int choice, value;
 
+    cout << "\n\nMAIN MENU\n\n";
+    cout << "1. Insert node";
+    cout << "\n2. Delete node";
+    cout << "\n3. Search node";
+    cout << "\n4. Pre order traversal";
+    cout << "\n5. In order traversal";
+    cout << "\n6. Post order traversal";
+    cout << "\n7. Exit";
+
     while (true)
     {
-        cout << "\n\nMAIN MENU\n";
-        cout << "\n1. Insert node";
-        cout << "\n2. Delete node";
-        cout << "\n3. Search node";
-        cout << "\n4. Pre-order traversal";
-        cout << "\n5. In-order traversal";
-        cout << "\n6. Post-order traversal";
-        cout << "\n7. Exit";
-        
         cout << "\n\nEnter your choice : ";
         cin >> choice;
 
